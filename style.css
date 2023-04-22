@@ -1,0 +1,36 @@
+button {
+    display: flex;
+    margin: 2% auto 10px;
+    padding: 10px;
+    border-radius: 20%;
+    border: none;
+}
+
+button:active {
+    background-color: #4b4b4b;
+    color: #fff;
+}
+
+section#pokemon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto 10px;
+    padding: .5%;
+    background-color: #fff;
+    border: solid 2px #000;
+    border-radius: 5%;
+    width: 10%;
+    height: 250px;
+}
+
+img#picture {
+    width: 150px;
+    height: 150px;
+}
+
+p {
+    font-weight: bold;
+    font-size: x-large;
+}
