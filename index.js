@@ -1,10 +1,10 @@
 
-let url = "https://pokeapi.co/api/v2/pokemon/2/";
-
-
+let url = "https://pokeapi.co/api/v2/pokemon/1/";
 
 function loadPk() {
+
     console.log("Dentro");
+
     fetch(url) 
         .then((response) => {
             return response.json();
