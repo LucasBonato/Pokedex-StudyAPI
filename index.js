@@ -1,11 +1,14 @@
 
-let url = "https://pokeapi.co/api/v2/pokemon/1/";
+let url = "https://pokeapi.co/api/v2/pokemon/";
 
 function loadPk() {
 
     console.log("Dentro");
 
-    fetch(url) 
+    let numComponent = document.querySelector("#newPokeID");
+    let num = numComponent.value;
+    
+    fetch(url + num + "/")
         .then((response) => {
             return response.json();
         })
